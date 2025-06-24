@@ -1,0 +1,12 @@
+langchain<0.99
+langchain-openai
+openai<1.16.99
+streamlit<1.33.99
+streamlit-folium<0.19.99
+jupyter
+pandas
+
+# Adições para compatibilidade
+protobuf<5        # necessário para streamlit e mlflow
+packaging<24      # necessário para langchain-core, streamlit, mlflow
+numpy<2.0         # necessário para thinc e outras libs de ML
